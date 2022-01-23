@@ -1,51 +1,49 @@
  <!DOCTYPE html>
 <html>
   <head>
-  	<title>Contact Us</title> 
+  	<title>Registration</title> 
   </head>
-  <body style="background-color:  #75d6e3  ">
-  	<h1 style="text-align:center">CONTACT</h1>
+  <body style="background-color:#88ec09">
+  	<h1 style="text-align:center">Registeration</h1>
   	<div style ="text-align:center;color:red">
-  	you may please fill up the form for further updates!
+  	Inorder to join our gym please fill up the form given below:
   	</div>
   	<form> 
-  	<input type="text" placeholder="Your Name" maxlength="20"required/><br /><br />
-  	DOB:<input type="date" /><br /><br />
-  	Gender:Male:<input type="radio" name="gender"value="male"/>
-  		female:<input type="radio" name="gender" value="female"/>
-  		others:<input type="radio" name="gender" value="others"/><br /><br />
-                place:<input  list="place" name="Place"/>
+  	<input type="text" placeholder="Your Name" maxlength="20" required/><br /><br />
+	<input type="text" placeholder="Guardian's Name" maxlength="20" required/><br /><br />
+  	<b>DOB:</b><input type="date" min="2002-01-01" /><br /><br />
+  	<b>Time shift:</b><br/><br/>
+				Morning:<input type="radio" name="Time shift"value="Morning"/>
+				Evening:<input type="radio" name="Time shift" value="Evening"/><br /><br />
+  		         <b>Place:</b><input  list="place" name="Place"/>
                 <datalist id="place">
-                	<option value="nileswaram"/>
-                	<option value="vellarikund"/>
-                	<option value="kanjagad"/>
-                	<option value="kalichampothi"/>
-                	<option value="azhithala"/>
-                	<option value="cheruvathur"/>
-                	<option value="karivellur"/>
-                	<option value="kannur"/>
-                	<option value="payyannur"/>
-                	<option value="Alapuzha"/>
+                	<option value="Perya"/>
+                	<option value="Bekal"/>
+                	<option value="Kanhangad"/>
+                	<option value="Kasaragod"/>
+                	<option value="Nileshwaram"/>
+                	<option value="Cheruvathur"/>
+                	<option value="Madikai"/>
+                	<option value="Kannur"/>
+                	<option value="Payyannur"/>
+                	<option value="Nellikattu"/>
                 	
                 </datalist> <br /><br />
-                Address:<input type="text"/><br /><br />
-                mobile no:<input type="text" pattern="\d{10}" title="mobile no. should have 10 digits"/></br></br>
+                Address:<textarea rows="1" cols="20" placeholder="Your Address"></textarea><br /><br/>
+                Mobile no:<input type="text" pattern="\d{10}" title="mobile no. should have 10 digits"/></br></br>
                 Language Known: English:<input type="checkbox" value="eng" checked/>
-                		Hindi:<input type="checkbox" value="hindi"/>
-                		Others:<input type="checkbox" value="oth"/><br /><br />
-          preferred dress to stich:<select>
-          			<option>churidar<option>    
-          			<option>blouse<option>    
-          			<option>kurta<option>    
-          			<option>uniform<option>
-               	<option>pallazzo<option>
-                <option>kurta with pallazzo<option>
-                <option>gown<option> 
+								Hindi:<input type="checkbox" value="hindi"/>
+								Others:<input type="checkbox" value="oth"/><br /><br />
+           Available Time Slots For Training:<select>
+          			<option>5:00AM To 6.30AM <option>    
+          			<option>6.30AM To 8.00AM<option>    
+          			<option>5.00PM To 6.30PM<option>    
+          			<option>6.30PM To 8.00PM<option>
 				</select><br /><br />
           E-mail:<input type="email"/><br /><br />
           <input type="submit" value="submit" />
-          <br /><br />
+          <br /><br /></b>
           </form>
-          Notifications on more updates will send on your mail ID.Thank you.
+         <b> WE WILL NOTIFY OUR UPDATIONS TO YOU VIA E-MAIL.</b>
   </body>
 </html>
